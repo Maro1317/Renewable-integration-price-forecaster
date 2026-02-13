@@ -231,4 +231,5 @@ if __name__ == "__main__":
     if df_grid is not None:
         df_final = get_historical_weather(df_grid)
         if df_final is not None:
+
             train_component_models(df_final)
